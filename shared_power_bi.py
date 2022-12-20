@@ -15,18 +15,6 @@ def get_data_from_power_bi(endpoint):
 
     return content
 
-# def get_datasets_from_power_bi():
-
-#     datasets = get_datasets_from_power_bi('admin/datasets')
-
-#     datasets = datasets.get('value')
-    
-#     if not datasets:
-#         print('No datasets returned')
-#         return
-    
-#     return datasets
-
 def get_refresh_history():
 
     refresh_history = {}
@@ -62,13 +50,3 @@ def get_refresh_history():
     
     return refresh_history
 
-
-refresh_history = get_refresh_history()        
-
-for key, value in refresh_history.items():
-    print(key)
-    for k, v in value.items():
-        if v:
-            print(k, len(v))
-        else: 
-            print(k)

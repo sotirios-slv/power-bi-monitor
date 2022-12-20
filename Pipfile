@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 azure-identity = "*"
 python-dotenv = "*"
+pywin32 = "*"
 
 [dev-packages]
 
