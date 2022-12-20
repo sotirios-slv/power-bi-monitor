@@ -48,7 +48,10 @@ for workspace, datasets in refresh_history.items():
 
 email_style = """
 <style>
-    table, th, td  {border: 1px solid black;}
+    table, th, td  {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
 </style>
 """
 
