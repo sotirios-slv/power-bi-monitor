@@ -7,6 +7,8 @@ name = "pypi"
 azure-identity = "*"
 python-dotenv = "*"
 pywin32 = "*"
+pandas = "*"
+dash = "*"
 
 [dev-packages]
 
